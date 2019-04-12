@@ -210,4 +210,23 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+    
+    public function actionTemplates($name)
+    {
+        $view_name = 'templates/';
+        switch ($name)
+        {
+            case 1:
+                $view_name.='template1';
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 7:
+                $view_name .= 'template_login';
+        }
+        
+        return $this->render($view_name);
+    }
 }
