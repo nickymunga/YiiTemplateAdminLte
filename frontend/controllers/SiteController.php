@@ -225,6 +225,15 @@ class SiteController extends Controller
             case 3:
                 $view_name.='template3';
                 break;
+            case 4:
+                $view_name.='template4';
+                break;
+            case 5:
+                $view_name.='template5';
+                break;
+            case 6:
+                $view_name.='template6';
+                break;
             case 7:
                 $view_name .= 'template_login';
         }
