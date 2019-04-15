@@ -27,11 +27,49 @@ and open the template in the editor.
     text-align: center;
 }
 .border-green {
-    border: 1px solid greenyellow;
+    /**border: 1px solid greenyellow;*/
 }
 .content-wrapper {
     background-color: white !important;
 }
 .main-header {
     border-bottom: 1px solid #8080804d;
+}
+.login-logo{
+    font-size: 16px;
+}
+.align-right {
+    text-align: right;
+}
+.magintop {
+    text-align: center;
+    margin-top: 35px;
+}
+.box-v2 {
+    border: 1px solid #dddbdb;
+    position: relative;
+    border-radius: 0px !important;
+    background: #ffffff;
+    border-top: 1px solid #d2d6de !important;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: none !important;
+}
+.side-menu {
+    font-size: 20px;
+    border: 1px solid #b9b9b94d;
+}
+.side-menu > ul {
+    list-style: none;
+}
+
+.side-menu-item:before {
+    content: "+";
+    margin-right: 4px;
+}
+side-menu-item:active {
+    content: "-";
+}
+.side-menu-item {
+    padding-bottom: 20px;
 }
