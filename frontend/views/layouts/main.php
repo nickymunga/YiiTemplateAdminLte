@@ -38,18 +38,12 @@ if (Yii::$app->controller->action->id === 'login') {
     </head>
     <body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
     <?php $this->beginBody() ?>
-    <div class="wrapper">
+    <div class="wrapper col-md-10 col-md-offset-1">
 
         <?= $this->render(
             'header.php',
             ['directoryAsset' => $directoryAsset]
         ) ?>
-
-        <?php /** echo $this->render(
-            'left.php',
-            ['directoryAsset' => $directoryAsset]
-        */
-        ?>
 
         <?= $this->render(
             'content.php',

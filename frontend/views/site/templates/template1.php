@@ -12,27 +12,25 @@
 
 <div class="template">
     <div class ="body-content">
-        
-        <div class="row">
-            <div class="col-md-12">
-                <div class="col-md-3 col-sm-12 border-green">
-
-                </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 border-green"></div>
+                
                 <div class="col-md-9 col-sm-12 border-green">
                     <div class="row">
-                        <div class="col-md-12">
-                            <form role="form">
-                                <div class="col-md-2 col-xs-12">
-                                    <button type="submit" class="btn btn-flat bg-olive btn-block">SEARCH</button>                                
-                                </div>
-                                <div class="col-md-6 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="search" class="form-control" id="exampleInputEmail1" placeholder="MURDER">
-                                      </div>
-                                </div>   
-                            </form>
-                            
-                            <div class="col-md-4 col-xs-12">
+                        <form role="form">
+                            <div class="col-md-2 col-xs-12">
+                                <div class="row"><button type="submit" class="btn btn-flat bg-olive btn-block">SEARCH</button></div>                                
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="form-group">
+                                    <input type="search" class="form-control" id="exampleInputEmail1" placeholder="MURDER">
+                                  </div>
+                            </div>   
+                        </form>
+
+                        <div class="col-md-4 col-xs-12">
+                            <div class="row">
                                 <div class="form-group">
                                     <select class="form-control select2" style="width: 100%;">
                                       <option selected="selected">SORT SEARCH RESULT</option>
@@ -41,9 +39,9 @@
                                       <option>OPTION 3</option>
                                     </select>
                                   </div>
-                            </div>
-                                
+                                </div>
                         </div>
+
                     </div>
                     <div class="row">
                         <div class="col-md-3 align-left">
@@ -64,12 +62,22 @@
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12">
+            <div class="row">
+            
+                <!--SideBar Menu-->
                 <div class="col-md-3 border-green side-menu">
-                    <?=$this->render('partials/side_menu.php')?>
+                    <div class="row side-menu-content">
+                        <div class="box box-v2">   
+                            <div class="box-body">
+                                <?=$this->render('partials/side_menu.php')?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
                 <div class="col-md-9 border-green">
+                    <div class="row">
                     <!-- Search Results-->
                     <?php foreach (range(1, 3) as $row):?>
                         <div class="box box-v2">
@@ -115,10 +123,12 @@
                             <li><a href="#">1</a></li>
                             <li><a href="#">2</a></li>
                             <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
                             <li><a href="#">&raquo;</a></li>
                         </ul>
                     </div>
-                    
+                </div>
                 </div>
             </div>
         </div>

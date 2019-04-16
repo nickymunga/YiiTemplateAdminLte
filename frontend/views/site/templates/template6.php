@@ -12,13 +12,23 @@
 
 <div class="template">
     <div class ="body-content">
-        
-        <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12">
+            <div class="row">
+                 <!--SideBar Menu-->
                 <div class="col-md-3 border-green side-menu">
-                    <?=$this->render('partials/side_menu.php')?>
+                    <div class="row side-menu-content">
+                        <div class="box box-v2">   
+                            <div class="box-body">
+                                <?=$this->render('partials/side_menu.php')?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!--End of SideBar Menu-->
+                
+                <!--Content Section-->
                 <div class="col-md-9 border-green">
+                    <div class="row">
                     <div class="box box-v2">
                         <div class="box-header with-border">
                             <div class="row">
@@ -66,7 +76,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="box-body align-center col-md-10 col-md-offset-1"  style="margin-top: 50px">
+                            <div class="box-body align-center col-md-10 col-md-offset-1 footer-block"  style="margin-top: 50px">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                     when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
@@ -78,6 +88,7 @@
                         
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         

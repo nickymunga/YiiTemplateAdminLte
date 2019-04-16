@@ -236,6 +236,16 @@ class SiteController extends Controller
                 break;
             case 7:
                 $view_name .= 'template_login';
+                break;
+            case 8:
+                $view_name .= 'template_login';
+                break;
+            case 9:
+                $view_name .= 'template_signup';
+                break;
+            case 10:
+                $view_name .= 'template_profile';
+            
         }
         
         return $this->render($view_name);
