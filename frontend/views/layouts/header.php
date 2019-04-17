@@ -69,7 +69,7 @@ use yii\bootstrap\Nav;
                             ]
                           ];
                         if (Yii::$app->user->isGuest) {
-                            $menuItems[] = ['label' => 'LOGIN', 'url' => ['/site/templates', 'name' => 7]];
+                            $menuItems[] = ['label' => 'LOGIN', 'url' => \yii\helpers\Url::toRoute(['backend/site/login'], true)];
                         } else {
                             $menuItems[] = '<li>'
                                 . Html::beginForm(['/site/logout'], 'post')

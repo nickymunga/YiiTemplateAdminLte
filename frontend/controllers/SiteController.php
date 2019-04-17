@@ -238,6 +238,7 @@ class SiteController extends Controller
                 $view_name .= 'template_login';
                 break;
             case 8:
+                $this->layout = 'main-login';
                 $view_name .= 'template_login';
                 break;
             case 9:
@@ -245,6 +246,10 @@ class SiteController extends Controller
                 break;
             case 10:
                 $view_name .= 'template_profile';
+                break;
+            case 11:
+                $view_name .= 'template_plan';
+                break;
             
         }
         

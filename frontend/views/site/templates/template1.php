@@ -1,15 +1,3 @@
-<?php
-    use yii\helpers\Html;
-    use yii\helpers\Url;
-    use yii\widgets\Menu;
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
-
 <div class="template">
     <div class ="body-content">
         <div class="col-md-12">

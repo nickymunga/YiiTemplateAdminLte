@@ -1,6 +1,6 @@
 <div class="template">
     <div class ="body-content">
-        <div class="col-md-8 col-md-offset-2 border-green">
+        <div class="col-md-12 border-green">
             
             <div class="row">
                 <div class="col-md-12 align-center">
