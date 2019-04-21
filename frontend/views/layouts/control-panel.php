@@ -1,6 +1,5 @@
 <?php
 use yii\helpers\Html;
-use frontend\assets\AppAsset;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -16,7 +15,12 @@ if (Yii::$app->controller->action->id === 'login') {
         ['content' => $content]
     );
 } else {
-        AppAsset::register($this);
+
+    if (class_exists('backend\assets\AppAsset')) {
+        backend\assets\AppAsset::register($this);
+    } else {
+        app\assets\AppAsset::register($this);
+    }
 
     dmstr\web\AdminLteAsset::register($this);
 
@@ -32,14 +36,20 @@ if (Yii::$app->controller->action->id === 'login') {
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
-    <body class="hold-transition sidebar-mini sidebar-collapse <?= \dmstr\helpers\AdminLteHelper::skinClass()?>" style="padding: 0px 40px;">
+    <body class="hold-transition sidebar-mini <?= \dmstr\helpers\AdminLteHelper::skinClass() ?>">
     <?php $this->beginBody() ?>
     <div class="wrapper">
 
         <?= $this->render(
-            'header.php',
+            'header-control-panel.php',
             ['directoryAsset' => $directoryAsset]
         ) ?>
+
+        <?= $this->render(
+            'left.php',
+            ['directoryAsset' => $directoryAsset]
+        )
+        ?>
 
         <?= $this->render(
             'content.php',

@@ -72,7 +72,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $this->layout = 'landing';
+        return $this->render('templates/template_front_page');
     }
 
     /**
@@ -249,6 +250,21 @@ class SiteController extends Controller
                 break;
             case 11:
                 $view_name .= 'template_plan';
+                break;
+            case 12:
+                $view_name .= 'template_update_profile';
+                break;
+            case 13:
+                $this->layout = 'landing';
+                $view_name .= 'template_front_page';
+                break;
+            case 14:
+                $this->layout = 'control-panel';
+                $view_name .= 'template_user_cp';
+                break;
+            case 15:
+                $this->layout = 'control-panel';
+                $view_name .= 'template_admin_cp';
                 break;
             
         }
