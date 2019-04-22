@@ -8,7 +8,7 @@
                     <div class="row">
                         <form role="form">
                             <div class="col-md-2 col-xs-12">
-                                <div class="row"><button type="submit" class="btn btn-flat bg-olive btn-block">SEARCH</button></div>                                
+                                <div class="row"><button type="submit" class="btn btn-flat theme-blue-button btn-block">SEARCH</button></div>                                
                             </div>
                             <div class="col-md-6 col-xs-12">
                                 <div class="form-group">

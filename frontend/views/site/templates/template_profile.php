@@ -80,7 +80,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-md-offset-3" style="padding-top: 30px;">
-                                    <button class="btn bg-olive btn-flat btn-block">Update Profile</button>
+                                    <button class="btn theme-blue-button btn-flat btn-block">Update Profile</button>
                                 </div>
                                 
                             </div>

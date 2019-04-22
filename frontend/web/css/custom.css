@@ -998,3 +998,22 @@ and open the template in the editor.
 .sidebar-collapse .content-cp{
     margin-left: 50px !important;
 }
+.theme-color-main {
+    background-color: #185886 !important;
+}
+.theme-orange-button {
+    background-color: #FF9800;
+}
+.theme-grey-button {
+    background-color: #90A4AE;
+}
+.theme-blue-button {
+    background-color: #185886;
+    color: white;
+}
+.theme-blue-text {
+    color: #64B5F6;
+}
+.wrapper {
+    background-color: #fff !important;
+}

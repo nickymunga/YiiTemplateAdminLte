@@ -47,7 +47,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-2 col-xs-12">
-                                        <button type="submit" class="btn btn-flat bg-olive btn-block">SEARCH</button>                                
+                                        <button type="submit" class="btn btn-flat theme-blue-button btn-block">SEARCH</button>                                
                                     </div>
                                 </form>
                             </div>

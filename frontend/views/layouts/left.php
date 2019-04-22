@@ -1,4 +1,4 @@
-<aside class="main-sidebar">
+<aside class="main-sidebar theme-color-main">
 
     <section class="sidebar">
 
