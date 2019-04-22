@@ -995,6 +995,6 @@ and open the template in the editor.
 .nav-alt > li > a {
     color: #181515 !important;
 }
-.sidebar-collapse .content-wrapper {
+.sidebar-collapse .content-cp{
     margin-left: 50px !important;
 }

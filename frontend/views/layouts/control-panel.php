@@ -52,7 +52,7 @@ if (Yii::$app->controller->action->id === 'login') {
         ?>
 
         <?= $this->render(
-            'content.php',
+            'content-cp.php',
             ['content' => $content, 'directoryAsset' => $directoryAsset]
         ) ?>
 
