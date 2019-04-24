@@ -1017,3 +1017,14 @@ and open the template in the editor.
 .wrapper {
     background-color: #fff !important;
 }
+.logo-area {
+    color: #185886 !important;
+    background-color: #fff !important;
+}
+.icon-bar {
+    background-color: #185886 !important;
+}
+.navbar-toggle.hover {
+    background-color: #185886 !important;
+    color: white !important;
+}

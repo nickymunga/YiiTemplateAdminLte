@@ -9,10 +9,10 @@ use yii\bootstrap\Nav;
 
 <header class="main-header">
     <div class="row">
-        <div class="col-md-3">
-            <?= Html::a('<span class="logo-mini">LOGO</span><span class="logo-lg">LOGO</span>', Yii::$app->homeUrl, ['class' => 'logo',  'style' => "width: 100%;text-align: left;"]) ?>
+        <div class="col-md-3 col-sm-3 col-xs-12 logo-area">
+            <?= Html::a('<span class="logo-mini">LOGO</span><span class="logo-lg">LOGO</span>', Yii::$app->homeUrl, ['class' => 'logo logo-area',  'style' => "width: 100%;text-align: left;"]) ?>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 col-sm-9 col-xs-12">
             <nav class="navbar navbar-static-top" role="navigation">
                 <div class="navbar-custom-menu">
                     <?php
